@@ -1,0 +1,2 @@
+# Count the number of each amino acids  count if it has 24 characters below
+malwmrllpllallalwgpdpaaa

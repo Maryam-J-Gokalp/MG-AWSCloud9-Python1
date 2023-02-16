@@ -1,0 +1,210 @@
+#Write a Python script to:
+#Display all the prime numbers between 1 to 250.
+#Store the results in a results.txt file.
+#Test the script. Verify that it produced the expected results in the results.txt file.
+
+#Save the script and make a note of its location (absolute path) for future reference
+
+# Automation test BELOW
+#Output = 250
+#233, 239, 241
+#primes = (3, 5, 7, 11, 13, 17, 19, ...and so on)
+# open a file
+# iterate across the list of primes, writing each of them to
+# the file, followed by a newline
+# 2
+# 3
+# 5
+# 7
+# 11
+# 13
+# 17
+# 19
+# 23
+# 29
+# 31
+# 37
+# 41
+# 43
+# 47
+# 53
+# 59
+# 61
+# 67
+# 71
+# 73
+# 79
+# 83
+# 89
+# 97
+# 101
+# 103
+# 107
+# 109
+# 113
+# 127
+# 131
+# 137
+# 139
+# 149
+# 151
+# 157
+# 163
+# 167
+# 173
+# 179
+# 181
+# 191
+# 193
+# 197
+# 199
+# 211
+# 223
+# 227
+# 229
+# 233
+# 239
+# 241
+
+===============================================================
+
+# BASH SCRIPT TEST BELOW ON VSC
+bash-3.2$  # cat prime.sh
+bash-3.2$ #!/bin/bash
+> for ((i=1; i<=250; i++))
+> do
+> 
+>       output=$(( $i % 2))
+> 
+>       if [ $output -ne 0 ]
+> 
+>       then
+>       echo "We got odd numbers: $i"
+>       fi
+> done
+We got odd numbers: 1
+We got odd numbers: 3
+We got odd numbers: 5
+We got odd numbers: 7
+We got odd numbers: 9
+We got odd numbers: 11
+We got odd numbers: 13
+We got odd numbers: 15
+We got odd numbers: 17
+We got odd numbers: 19
+We got odd numbers: 21
+We got odd numbers: 23
+We got odd numbers: 25
+We got odd numbers: 27
+We got odd numbers: 29
+We got odd numbers: 31
+We got odd numbers: 33
+We got odd numbers: 35
+We got odd numbers: 37
+We got odd numbers: 39
+We got odd numbers: 41
+We got odd numbers: 43
+We got odd numbers: 45
+We got odd numbers: 47
+We got odd numbers: 49
+We got odd numbers: 51
+We got odd numbers: 53
+We got odd numbers: 55
+We got odd numbers: 57
+We got odd numbers: 59
+We got odd numbers: 61
+We got odd numbers: 63
+We got odd numbers: 65
+We got odd numbers: 67
+We got odd numbers: 69
+We got odd numbers: 71
+We got odd numbers: 73
+We got odd numbers: 75
+We got odd numbers: 77
+We got odd numbers: 79
+We got odd numbers: 81
+We got odd numbers: 83
+We got odd numbers: 85
+We got odd numbers: 87
+We got odd numbers: 89
+We got odd numbers: 91
+We got odd numbers: 93
+We got odd numbers: 95
+We got odd numbers: 97
+We got odd numbers: 99
+We got odd numbers: 101
+We got odd numbers: 103
+We got odd numbers: 105
+We got odd numbers: 107
+We got odd numbers: 109
+We got odd numbers: 111
+We got odd numbers: 113
+We got odd numbers: 115
+We got odd numbers: 117
+We got odd numbers: 119
+We got odd numbers: 121
+We got odd numbers: 123
+We got odd numbers: 125
+We got odd numbers: 127
+We got odd numbers: 129
+We got odd numbers: 131
+We got odd numbers: 133
+We got odd numbers: 135
+We got odd numbers: 137
+We got odd numbers: 139
+We got odd numbers: 141
+We got odd numbers: 143
+We got odd numbers: 145
+We got odd numbers: 147
+We got odd numbers: 149
+We got odd numbers: 151
+We got odd numbers: 153
+We got odd numbers: 155
+We got odd numbers: 157
+We got odd numbers: 159
+We got odd numbers: 161
+We got odd numbers: 163
+We got odd numbers: 165
+We got odd numbers: 167
+We got odd numbers: 169
+We got odd numbers: 171
+We got odd numbers: 173
+We got odd numbers: 175
+We got odd numbers: 177
+We got odd numbers: 179
+We got odd numbers: 181
+We got odd numbers: 183
+We got odd numbers: 185
+We got odd numbers: 187
+We got odd numbers: 189
+We got odd numbers: 191
+We got odd numbers: 193
+We got odd numbers: 195
+We got odd numbers: 197
+We got odd numbers: 199
+We got odd numbers: 201
+We got odd numbers: 203
+We got odd numbers: 205
+We got odd numbers: 207
+We got odd numbers: 209
+We got odd numbers: 211
+We got odd numbers: 213
+We got odd numbers: 215
+We got odd numbers: 217
+We got odd numbers: 219
+We got odd numbers: 221
+We got odd numbers: 223
+We got odd numbers: 225
+We got odd numbers: 227
+We got odd numbers: 229
+We got odd numbers: 231
+We got odd numbers: 233
+We got odd numbers: 235
+We got odd numbers: 237
+We got odd numbers: 239
+We got odd numbers: 241
+We got odd numbers: 243
+We got odd numbers: 245
+We got odd numbers: 247
+We got odd numbers: 249
+bash-3.2$ 

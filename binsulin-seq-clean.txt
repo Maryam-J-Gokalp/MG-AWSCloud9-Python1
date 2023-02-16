@@ -1,0 +1,2 @@
+# Count the number of each amino acids check if it has 30 characters below
+fvnqhlcgshlvealylvcgergffytpkt

@@ -1,0 +1,2 @@
+# save amino acids 55–89. Verify that your file has 35 characters below
+rreaedlqvgqvelgggpgagslqplalegslqkr

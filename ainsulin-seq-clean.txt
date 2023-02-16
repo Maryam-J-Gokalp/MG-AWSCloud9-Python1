@@ -1,0 +1,2 @@
+#save amino acids 90–110. Verify that your file has 21 characters below
+giveqcctsicslyqlenycn
